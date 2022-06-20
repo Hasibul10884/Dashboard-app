@@ -10,4 +10,8 @@ class AdminDashboardController extends Controller
     {
         return view('backend.master');
     }
+
+public function viewDashboard(){
+    return view('backend.dashboard.dashboard');
+}
 }
